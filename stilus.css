@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.mezo{
+    display: flex;
+}
+tr,td,th{
+    border: 1px solid;
+}
+table{
+    border-collapse: collapse;
+    max-width: 100%;
+}
+table input{
+    width: 98%;
+}
+main{
+    max-width: 100vw;
+}
+table tr:nth-child(even){
+    background-color:black;
+    color: white;
+}
+table tbody tr td:nth-child(1){
+    width: 30px;
+    text-align: center;
+}
+#jatekos-nevek-input{
+    display: none;
+}
